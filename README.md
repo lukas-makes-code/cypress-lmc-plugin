@@ -25,7 +25,7 @@ Make sure you have specified a baseUrl in the cypress configuration:
 ```js
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://please,test-your-website.com/'
+    baseUrl: 'https://please.test-your-website.com/'
   },
 });
 ```
