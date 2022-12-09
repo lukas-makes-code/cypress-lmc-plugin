@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "author": "Lukas Maxheim <l.maxheim@forty-four.de>",
   "description": "A plugin to extend cypress commands with useful functions to make daily work much more comfortable.",
-  "license": "GPL-2.0-only",
-  "keywords": [
-    "cypress",
-    "cypress-io",
-    "end-to-end-testing"
-  ],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukas-makes-code/cypress-lmc-plugin.git"
@@ -20,5 +15,10 @@
   "main": "src",
   "files": [
     "src"
+  ],
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "end-to-end-testing"
   ]
 }
