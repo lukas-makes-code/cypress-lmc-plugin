@@ -4,35 +4,43 @@ A plugin to extend cypress commands with useful functions to make daily work muc
 
 ## Installation
 
+You can install the cypress plugin via npm:
+
+```bash
+npm i cypress-lmc-plugin
+```
+
 ### Extend "cypress/support/e2e"
 
-Add following line in your cypress/support/e2e.js:
+Add the following line to your cypress/support/e2e.js to import the plugin functions:
 
-`import 'cypress-lmc-plugin'`
+```js
+import 'cypress-lmc-plugin'
+```
 
 ### Extend cypress.config.js
 
-Make sure you have specified a baseUrl in the cypress configuration.
+Make sure you have specified a baseUrl in the cypress configuration:
 
 ```js
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://www,your-website.com/'
+    baseUrl: 'https://please.test-your-website.com/'
   },
 });
 ```
 
 ## Usage
 
-Once you have completed the installation, you can access the functions of the plugin and use them in your spec, e.g:
+Once you have completed the installation, you can access the plugin functions and use them in your specs, e.g:
 
 ```js
 describe('Make sure cookie bot can be accepted', () => {
   it('passes', () => {
     cy.visit('/')
     cy.acceptCookieBot()
-  })
-})
+  });
+});
 ```
 
 ## Credits and blog post links
