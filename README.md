@@ -1,0 +1,1 @@
+# cypress-lmc-plugin
