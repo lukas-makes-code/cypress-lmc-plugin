@@ -1,6 +1,6 @@
 {
   "name": "cypress-lmc-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Lukas Maxheim <l.maxheim@forty-four.de>",
   "description": "A plugin to extend cypress commands with useful functions to make daily work much more comfortable.",
   "license": "ISC",
