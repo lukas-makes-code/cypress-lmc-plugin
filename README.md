@@ -8,11 +8,13 @@ A plugin to extend cypress commands with useful functions to make daily work muc
 
 Add following line in your cypress/support/e2e.js:
 
-`import 'cypress-lmc-plugin'`
+```js
+import 'cypress-lmc-plugin'
+```
 
 ### Extend cypress.config.js
 
-Make sure you have specified a baseUrl in the cypress configuration.
+Make sure you have specified a baseUrl in the cypress configuration:
 
 ```js
 module.exports = defineConfig({
@@ -24,7 +26,7 @@ module.exports = defineConfig({
 
 ## Usage
 
-Once you have completed the installation, you can access the functions of the plugin and use them in your spec, e.g:
+Once you have completed the installation, you can access the plugins functions and use them in your spec, e.g:
 
 ```js
 describe('Make sure cookie bot can be accepted', () => {
