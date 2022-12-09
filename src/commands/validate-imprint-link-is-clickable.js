@@ -8,6 +8,7 @@ export const validateImprintLinkIsClickable = (imprintLinkSelector = 'footer a[t
    .should('be.visible')
    .contains('Impressum')
    .invoke('attr', 'href')
+   .should('not.be.empty')
    .then((imprintLinkHref) => {
      cy.log('Verify that imprint link is clickable and ends in HTTP 200');
      cy.log(imprintLinkHref);
