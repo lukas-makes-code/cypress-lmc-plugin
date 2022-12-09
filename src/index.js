@@ -4,4 +4,4 @@ import { validateImprintLinkIsClickable } from './commands/validate-imprint-link
 
 Cypress.Commands.add('acceptCookieBot', acceptCookieBot);
 Cypress.Commands.add('authorizeAgainstHtaccess', authorizeAgainstHtaccess);
-Cypress.Commands.add('validateImprintIsClickable', validateImprintLinkIsClickable);
+Cypress.Commands.add('validateImprintLinkIsClickable', validateImprintLinkIsClickable);
